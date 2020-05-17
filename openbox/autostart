@@ -1,0 +1,12 @@
+xset b off
+~/.fehbg &
+compton &
+tint2 &
+(sleep 2s && nm-applet) &
+(sleep 5s && xfce4-power-manager) &
+(sleep 2s && blueman-applet) &
+(sleep 2s && pnmixer) &
+(sleep 2s && mx-tweak --tray) &
+(sleep 6s && lxpolkit) &
+(sleep 3s && conky -c /home/mauricio/.conky/MX-BritPanel/conkyrc) &
+
